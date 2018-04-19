@@ -12,4 +12,8 @@ export class FotoComponent implements OnInit {
   ngOnInit() {
   }
 
+  public alerta(){
+    alert("BTS, indicado para prêmio da billboard");
+  }
+
 }

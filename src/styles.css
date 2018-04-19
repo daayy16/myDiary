@@ -1,1 +1,10 @@
 /* You can add global styles to this file, and also import other style files */
+img#foto1, #foto2{
+    width: 400px;
+    height: 266px;
+}
+
+img#foto1:hover, #foto2:hover{
+background-color: rgba(0, 0, 0, .3);
+border: 8px solid rgba(0, 0, 0, .3)
+}
