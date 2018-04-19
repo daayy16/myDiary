@@ -16,4 +16,8 @@ export class FotoComponent implements OnInit {
     alert("BTS, indicado para prêmio da billboard");
   }
 
+  public alerta2(){
+   alert("Propaganda.");
+  }
+
 }
