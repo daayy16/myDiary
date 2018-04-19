@@ -19,4 +19,8 @@ duasPaginas: boolean = true;
     this.duasPaginas = true;
   }
 
+  public alerta(){
+    alert("Oi");
+  }
+
 }

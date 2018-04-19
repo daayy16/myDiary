@@ -7,6 +7,7 @@ import { HeadComponent } from './head/head.component';
 import { BodyComponent } from './body/body.component';
 
 import { FooterComponent } from './footer/footer.component';
+import { FotoComponent } from './foto/foto.component';
 
 
 
@@ -16,7 +17,9 @@ import { FooterComponent } from './footer/footer.component';
     HeadComponent,
     BodyComponent,
     
-    FooterComponent
+    FooterComponent,
+    
+    FotoComponent
     
   ],
   imports: [
