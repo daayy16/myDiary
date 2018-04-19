@@ -5,8 +5,9 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { HeadComponent } from './head/head.component';
 import { BodyComponent } from './body/body.component';
-import { BotaoComponent } from './botao/botao.component';
+
 import { FooterComponent } from './footer/footer.component';
+
 
 
 @NgModule({
@@ -14,8 +15,9 @@ import { FooterComponent } from './footer/footer.component';
     AppComponent,
     HeadComponent,
     BodyComponent,
-    BotaoComponent,
+    
     FooterComponent
+    
   ],
   imports: [
     BrowserModule

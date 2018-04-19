@@ -1,7 +1,32 @@
-<div class="container"><div class="jumbotron jumbotron-fluid"style="background-color: #ffe6e6;">
+<div class="container" *ngIf="duasPaginas; else paginas"><div class="jumbotron jumbotron-fluid"style="background-color: #ffe6e6;">
   <div class="container" style="background-color: #ffe6e6;">
     <h1 class="display-4">Fluid jumbotron</h1>
     <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-    <app-botao></app-botao>
+    <button (click)="mostrarPaginas()" type="button" class="btn btn-outline-secondary">Secondary</button>
   </div>
 </div></div>
+<ng-template #paginas>
+    <div class="container" ><div class="jumbotron jumbotron-fluid"style="background-color: #ffe6e6;">
+        <div class="container" style="background-color: #ffe6e6;">
+          <h1 class="display-4">Fluid jumbotron</h1>
+          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <button (click)="sumir()" type="button" class="btn btn-outline-secondary">Secondary</button>
+        </div>
+      </div></div>
+      <div class="container">
+          <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img class="d-block w-100" src=".../800x400?auto=yes&bg=777&fg=555&text=First slide" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src=".../800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                  <img class="d-block w-100" src=".../800x400?auto=yes&bg=555&fg=333&text=Third slide" alt="Third slide">
+                </div>
+              </div>
+            </div>
+      </div>
+        <app-footer></app-footer>
+</ng-template>

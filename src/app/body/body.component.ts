@@ -6,10 +6,17 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./body.component.css']
 })
 export class BodyComponent implements OnInit {
-
+duasPaginas: boolean = true;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public mostrarPaginas(){
+    this.duasPaginas = false;
+  }
+  public sumir(){
+    this.duasPaginas = true;
   }
 
 }
