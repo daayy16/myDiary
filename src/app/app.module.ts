@@ -8,6 +8,7 @@ import { BodyComponent } from './body/body.component';
 
 import { FooterComponent } from './footer/footer.component';
 import { FotoComponent } from './foto/foto.component';
+import { AlbunsComponent } from './albuns/albuns.component';
 
 
 
@@ -19,7 +20,9 @@ import { FotoComponent } from './foto/foto.component';
     
     FooterComponent,
     
-    FotoComponent
+    FotoComponent,
+    
+    AlbunsComponent
     
   ],
   imports: [
